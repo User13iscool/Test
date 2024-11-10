@@ -18,13 +18,9 @@ class Coordinate:
 
 
 class Vector:
-    def __init__(self, xa, ya, yb, xb):
-        self.xa = xa
-        self.xb = xb
-        self.ya = ya
-        self.yb = yb
-        self.distX = xb - xa
-        self.distY = yb - ya
+    def __init__(self, x, y):
+        self.distX = x
+        self.distY = y
 
     def __str__(self):
         return (
